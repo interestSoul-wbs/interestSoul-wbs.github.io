@@ -16,7 +16,7 @@ author: wbs
 
 ### 首先是mysql的版本
 
-![image](https://github.com/interestSoul-wbs/interestSoul-wbs.github.io/images/mysql-character-set/数据库版本.JPG)
+![image]()
 
 ### 出现的错误
 
@@ -32,17 +32,17 @@ ERROR 1366 (HY000): Incorrect string value: '\xE5\xBC\xA0\xE4\xB8\x89' for colum
 
 可以看到
 
-![image](https://github.com/interestSoul-wbs/interestSoul-wbs.github.io/images/mysql-character-set/数据库字符状态.JPG)
+![image](https://github.com/interestSoul-wbs/interestSoul-wbs.github.io/blob/master/images/mysql-character-set/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AD%97%E7%AC%A6%E7%8A%B6%E6%80%81.JPG)
 
 当时我的状态是character_set_server和character_set_database的值为latin1
 
 解决办法是：
 
-'''
+```
    set character_set_server=utf8;
    
    set character_set_database=utf8;
-'''
+```
 
 然后重启数据库，就可以看到上面两个参数的值已经改为了utf8,然后就可以愉快的使用了。
 
