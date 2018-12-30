@@ -16,23 +16,23 @@ author: wbs
 
 ### 首先是mysql的版本
 
-[image] (https://github.com/interestSoul-wbs/interestSoul-wbs.github.io/images/mysql-character-set/数据库版本.JPG)
+![image](https://github.com/interestSoul-wbs/interestSoul-wbs.github.io/images/mysql-character-set/数据库版本.JPG)
 
 ### 出现的错误
 
-'''
+```
 mysql> insert into test(name,sec,age) values('张三','男',1);
   
 ERROR 1366 (HY000): Incorrect string value: '\xE5\xBC\xA0\xE4\xB8\x89' for column 'name' at row 1  
-'''
+```
 
 ### 首先查看数据库的编码
 
-' show variables like  \'%char%\''
+`show variables like  \'%char%\'`
 
 可以看到
 
-[image] (https://github.com/interestSoul-wbs/interestSoul-wbs.github.io/images/mysql-character-set/数据库字符状态.JPG)
+![image](https://github.com/interestSoul-wbs/interestSoul-wbs.github.io/images/mysql-character-set/数据库字符状态.JPG)
 
 当时我的状态是character_set_server和character_set_database的值为latin1
 
