@@ -26,7 +26,7 @@ mysql> insert into test(name,sec,age) values('张三','男',1);
 ERROR 1366 (HY000): Incorrect string value: '\xE5\xBC\xA0\xE4\xB8\x89' for column 'name' at row 1  
 ```
 
-### 首先查看数据库的编码
+### 首先查看当前数据库的编码
 
 `show variables like  \'%char%\'`
 
