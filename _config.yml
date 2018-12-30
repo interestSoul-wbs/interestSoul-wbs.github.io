@@ -7,7 +7,7 @@
 
 # Site settings
 title: 王不怂的技术专栏
-brief-intro: Android and Python Coder
+brief-intro: Big Data and Machine Learning 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://interestsoul-wbs.github.io" # the base hostname & protocol for your site
 
@@ -28,7 +28,7 @@ description_footer: 来自王不怂的个人专栏！
 # comments
 # two ways to comment, only choose one, and use your own short name
 # 两种评论插件，选一个就好了，使用自己的 short_name
-duoshuo_shortname: #hygblog
+duoshuo_shortname: wbs
 disqus_shortname: #gaohaoyang
 
 # statistic analysis 统计代码
