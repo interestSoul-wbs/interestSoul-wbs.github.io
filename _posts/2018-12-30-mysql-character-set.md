@@ -16,7 +16,7 @@ author: wbs
 
 ###首先是mysql的版本
 
-[image]()
+[image](https://github.com/interestSoul-wbs/interestSoul-wbs.github.io/images/mysql-character-set/数据库版本.JPG)
 
 ###出现的错误
 
@@ -32,7 +32,7 @@ author: wbs
 
 可以看到
 
-[image]()
+[image](https://github.com/interestSoul-wbs/interestSoul-wbs.github.io/images/mysql-character-set/数据库字符状态.JPG)
 
 当时我的状态是character_set_server和character_set_database的值为latin1
 
