@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "王不怂的第一篇博客"
-categories: Github 
-tags:  Github  markdown
+title: Mysql字符集更改
+categories: Mysql 
+tags:  Mysql
 author: wbs
 ---
 
