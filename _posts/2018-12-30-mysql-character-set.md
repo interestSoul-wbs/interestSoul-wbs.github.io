@@ -48,7 +48,7 @@ ERROR 1366 (HY000): Incorrect string value: '\xE5\xBC\xA0\xE4\xB8\x89' for colum
 
 ### 注意
 关于mysql服务重启的问题
-* service mysqlid  restart(5.0版本）
+* service mysqld  restart(5.0版本）
 * service mysql restart（5.5.7版本）
 
 
