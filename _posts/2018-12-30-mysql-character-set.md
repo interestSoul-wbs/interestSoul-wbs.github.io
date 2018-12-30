@@ -16,7 +16,7 @@ author: wbs
 
 ### 首先是mysql的版本
 
-![image]()
+![image](https://github.com/interestSoul-wbs/interestSoul-wbs.github.io/blob/master/images/mysql-character-set/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%89%88%E6%9C%AC.JPG)
 
 ### 出现的错误
 
