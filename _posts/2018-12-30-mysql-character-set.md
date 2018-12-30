@@ -30,7 +30,7 @@ ERROR 1366 (HY000): Incorrect string value: '\xE5\xBC\xA0\xE4\xB8\x89' for colum
 
 `show variables like  \'%char%\'`
 
-可以看到
+然后可以看到
 
 ![image](https://github.com/interestSoul-wbs/interestSoul-wbs.github.io/blob/master/images/mysql-character-set/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AD%97%E7%AC%A6%E7%8A%B6%E6%80%81.JPG)
 
