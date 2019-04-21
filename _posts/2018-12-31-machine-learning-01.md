@@ -1,4 +1,13 @@
+---
+layout: post
+title: "机器学习之旅（1）"
+categories: ML 
+tags: machinelearning
+author: wbs
+---
 
+* content
+{:toc}
 
 
 
