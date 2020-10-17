@@ -8,9 +8,6 @@ author: wbs
 
 * content
 {:toc}
-
-
-
 ## 机器学习笔记
 
 何为机器学习？
@@ -18,9 +15,6 @@ author: wbs
 *
 
 * T-E-P理论
-
-
-
 监督学习（supervise  learning）与非监督学习（unsupervise  learning）
 
 监督学习主要包括：回归问题（regression problem）与分类问题（classification  problem）
@@ -32,6 +26,10 @@ author: wbs
 非监督学习主要包括：聚类（clustering problem）
 
 聚类算法的主要应用有：大型计算机集群的协调组织、社交网络分析、市场划分、天文数据分析等等。
+
+
+
+
 
 ## 回归
 
