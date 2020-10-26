@@ -19,6 +19,9 @@ author: wbs
 
 
 
+
+
+
 ### 首先是mysql的版本，如图
 
 ![image](../images/mysql-character-set/数据库字符状态.JPG)
