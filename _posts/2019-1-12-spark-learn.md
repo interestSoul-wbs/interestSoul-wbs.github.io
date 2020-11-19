@@ -20,6 +20,12 @@ author: wbs
 3. 支持多种语言，提供完整的技术栈，包括SQL执行，机器学习MLilib,图计算，流计算等。
 4. 兼容多种工具。可以运行在Hdoop YARN,Apache Mesos,Spark Standalone等
 5. 访问多种工具。 Hbase,Hive,HDFS等
+
+
+
+
+
+
 ### Spark的重要的组件
 1. Spark Core
     + 是spark的基础，提供了基本的任务调度和I/O功能
