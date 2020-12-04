@@ -11,6 +11,16 @@ author: wbs
 
 ### Flume是一个高可用的、高可靠的、分布式的海量日志采集、聚合和传输的系统，基于流式架构。
 * Flume最主要的作用就是读取服务器本地文件中的数据然后上传到HDFS
+
+
+
+
+
+
+
+
+
+
 ### Flume的基础架构
 * Agent,是一个JVM进程
 * Source 用来读数据,负责接收数据到Channel,可以接受不同类型的数据源中的数据，分为驱动型的source和轮询型的source，数据源可以有avro、thrift
