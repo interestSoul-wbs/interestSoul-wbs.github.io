@@ -15,14 +15,20 @@ author: wbs
 ### Hive的安装部署
 1. 内置Derby版本缺点：不同的路径启动Hive,每一个hive都拥有自己的元数据，不能共用。
 2. mysql版本需要进行配置。
+
+
+
+
+
+
+
+
+
+
 ### Hive DDL
 1. 创建表
 ```sql
     CREATE TABLE[IF NOT EXISTS] TABLENAME
-
-
-
-
     ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
     
 ```

@@ -18,6 +18,16 @@ author: wbs
 3. 命令行模式
     * 在命令行模式中设置set nu表示加入行号，set nonu表示取消行号
     * 在命令行模式下输入 /要查找的字符就可以了，在输入n就是找到下一个
+
+
+
+
+
+
+
+
+
+
 ### 用户与用户组
 /home/目录下面有各个用户对应的家目录，用户登录时，会自动的进入到自己的家目录下 
 1. 用户组，类似于角色，系统可以对有共性的多个用户进行统一的管理。
@@ -59,7 +69,12 @@ author: wbs
     * chown  newowner file 
     * chown  newowner:newgroup file 
     * chown -R  new owner dict/   将文件夹下所有文件的所有者进行修改
-8. 进程管理
+8. 进程管理,显示当前的进程ps
+    *ps -aux
+9. 管道符 | 将前一个命令得到的输出，输送给下一个命令
+    * ps -aux | more
+![image](../images/linux-learn/ps-命令.png)
+    
     
 
 
