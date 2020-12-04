@@ -59,7 +59,12 @@ author: wbs
     * chown  newowner file 
     * chown  newowner:newgroup file 
     * chown -R  new owner dict/   将文件夹下所有文件的所有者进行修改
-8. 进程管理
+8. 进程管理,显示当前的进程ps
+    *ps -aux
+9. 管道符 | 将前一个命令得到的输出，输送给下一个命令
+    * ps -aux | more
+![image](../images/linux-learn/ps-命令.png)
+    
     
 
 
