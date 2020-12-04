@@ -1,6 +1,6 @@
 ---
 layout: post
-title: flume
+title: flink
 categories: BigData
 tags: flume
 author: wbs
@@ -26,5 +26,5 @@ author: wbs
 2. TaskManager是工作进程，每一个都包含一定数量的slot，slot的数量显示了TaskManager可以执行任务的数量。在启动后，TaskManager向ResourceManager注册自己的slot，收到
 ResourceManager的指令后，就将一个或者多个slot提交给JobManager进行调用。JobManager就可以将slot分配给任务了。
 3. flink任务提交流程
-![image](../images/flink-learn/flinkjob_commit.PNG)
+![image](https://github.com/interestSoul-wbs/interestSoul-wbs.github.io/blob/master/images/flink-learn/flinkjob_commit.PNG)
 
